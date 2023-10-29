@@ -2,6 +2,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.InputSystem;
 using UnityEngine.Serialization;
@@ -100,7 +101,7 @@ namespace Weapons
             //Item in hand and is a weapon:
             if (heldItem != null && heldItem.CompareTag("Weapon"))
             {
-                var weapon = FindObjectsByType<MonoBehaviour>(FindObjectsSortMode.None).OfType<Weapon>().First();
+                var weapon = transform.GetChild(_currentItem).GetComponent<Weapon>();
                 weapon.Attack();
             }
         }
