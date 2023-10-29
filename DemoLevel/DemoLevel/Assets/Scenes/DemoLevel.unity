@@ -754,7 +754,7 @@ PrefabInstance:
     - target: {fileID: 2570872382846953416, guid: 4ef0089d91efdec418da4f3dc9a29141,
         type: 3}
       propertyPath: m_Name
-      value: Shotgun
+      value: Rifle
       objectReference: {fileID: 0}
     - target: {fileID: 6852230658901854970, guid: 4ef0089d91efdec418da4f3dc9a29141,
         type: 3}
