@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 949785181627698727}
   - component: {fileID: 2238941153277222642}
   - component: {fileID: -3178117029466408295}
+  - component: {fileID: 1902877934845871766}
   m_Layer: 0
   m_Name: Enemy
   m_TagString: Untagged
@@ -66,6 +67,7 @@ MonoBehaviour:
   health: 100
   hitEffect: {fileID: 8926484042661614526, guid: b5e2a0bead17fb64abd9f7927ab0fef4,
     type: 3}
+  hitEffectStrength: {fileID: 0}
 --- !u!114 &949785181627698727
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -119,6 +121,33 @@ NavMeshAgent:
   m_BaseOffset: 1
   m_WalkableMask: 4294967295
   m_ObstacleAvoidanceType: 4
+--- !u!54 &1902877934845871766
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2443107527358292541}
+  serializedVersion: 4
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_CenterOfMass: {x: 0, y: 0, z: 0}
+  m_InertiaTensor: {x: 1, y: 1, z: 1}
+  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ImplicitCom: 1
+  m_ImplicitTensor: 1
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1 &3261387675953470774
 GameObject:
   m_ObjectHideFlags: 0
