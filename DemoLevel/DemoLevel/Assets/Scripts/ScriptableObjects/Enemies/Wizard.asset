@@ -16,4 +16,4 @@ MonoBehaviour:
   maxDistanceFromPlayer: 15
   cooldown: 2
   patrolTime: 1
-  patrolDistance: 200
+  patrolDistance: 100

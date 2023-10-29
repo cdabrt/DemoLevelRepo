@@ -41,6 +41,7 @@ namespace Entities.Enemy
         
         public void OnPatrolUpdate()
         {
+            print("Test");
             //Move back and forth
             if (_patrolInProgress)
             {
