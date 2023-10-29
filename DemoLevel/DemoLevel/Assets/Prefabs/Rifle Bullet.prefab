@@ -214,7 +214,7 @@ GameObject:
   - component: {fileID: -3382333100083182484}
   - component: {fileID: -6628698998631621214}
   m_Layer: 0
-  m_Name: Bullet
+  m_Name: Rifle Bullet
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -319,7 +319,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0735359c78783ad4e9b58fb60913cf2f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damage: 20
+  damage: 50
   vfx: {fileID: 0}
 --- !u!114 &-3382333100083182484
 MonoBehaviour:
@@ -333,7 +333,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 58318ce6e131c554287d292da4edf5fd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  projectileSpeed: 80
+  projectileSpeed: 100
 --- !u!54 &-6628698998631621214
 Rigidbody:
   m_ObjectHideFlags: 0
