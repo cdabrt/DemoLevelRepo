@@ -106,9 +106,6 @@
             "m_Id": "38ac1c9a307b4692813d1eb0862a99f2"
         },
         {
-            "m_Id": "11606346a4b04e988a562099da71c9ff"
-        },
-        {
             "m_Id": "bcb6bef3427f47b78b55f232d3129fd4"
         },
         {
@@ -905,42 +902,6 @@
 }
 
 {
-    "m_SGVersion": 1,
-    "m_Type": "UnityEditor.ShaderGraph.ViewDirectionNode",
-    "m_ObjectId": "11606346a4b04e988a562099da71c9ff",
-    "m_Group": {
-        "m_Id": "27a47a2f5cf24788a2b90a475d6c678f"
-    },
-    "m_Name": "View Direction",
-    "m_DrawState": {
-        "m_Expanded": true,
-        "m_Position": {
-            "serializedVersion": "2",
-            "x": -488.9999084472656,
-            "y": 701.0000610351563,
-            "width": 208.00003051757813,
-            "height": 315.0
-        }
-    },
-    "m_Slots": [
-        {
-            "m_Id": "128c40a163bd4d2ea9b95983e273a724"
-        }
-    ],
-    "synonyms": [
-        "eye direction"
-    ],
-    "m_Precision": 0,
-    "m_PreviewExpanded": true,
-    "m_DismissedVersion": 0,
-    "m_PreviewMode": 2,
-    "m_CustomColors": {
-        "m_SerializableColors": []
-    },
-    "m_Space": 2
-}
-
-{
     "m_SGVersion": 3,
     "m_Type": "UnityEditor.ShaderGraph.Internal.ColorShaderProperty",
     "m_ObjectId": "11b9aca2e2114e02a66cb5ee21bd055a",
@@ -1013,29 +974,6 @@
         "y": 0.0,
         "z": 0.0,
         "w": 0.0
-    },
-    "m_Labels": []
-}
-
-{
-    "m_SGVersion": 0,
-    "m_Type": "UnityEditor.ShaderGraph.Vector3MaterialSlot",
-    "m_ObjectId": "128c40a163bd4d2ea9b95983e273a724",
-    "m_Id": 0,
-    "m_DisplayName": "Out",
-    "m_SlotType": 1,
-    "m_Hidden": false,
-    "m_ShaderOutputName": "Out",
-    "m_StageCapability": 3,
-    "m_Value": {
-        "x": 0.0,
-        "y": 0.0,
-        "z": 0.0
-    },
-    "m_DefaultValue": {
-        "x": 0.0,
-        "y": 0.0,
-        "z": 0.0
     },
     "m_Labels": []
 }
@@ -1432,8 +1370,8 @@
     "m_ObjectId": "27a47a2f5cf24788a2b90a475d6c678f",
     "m_Title": "Sun",
     "m_Position": {
-        "x": 10.0,
-        "y": 10.0
+        "x": -1053.0001220703125,
+        "y": 218.00001525878907
     }
 }
 
@@ -2287,7 +2225,7 @@
     "m_Type": "UnityEditor.ShaderGraph.StickyNoteData",
     "m_ObjectId": "74cbfdecadab4194b5eb226927a3ac94",
     "m_Title": "",
-    "m_Content": "An ellipse that will not be stretched into a halo",
+    "m_Content": "An ellipse that will not be stretched into a halo\nSource: https://medium.com/@jannik_boysen/procedural-skybox-shader-137f6b0cb77c, see node setup for the sun",
     "m_TextSize": 0,
     "m_Theme": 0,
     "m_Position": {
